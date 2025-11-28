@@ -1,0 +1,48 @@
+@media screen and (max-width:1285px) {
+    nav{
+        grid-column: 2 / 4;
+    }
+}
+@media screen and (max-width:680px) {
+    section{
+        margin: 25px;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        padding: 10px 25px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    nav ul li a{
+        font-size: .9rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    
+    #coollander{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    #title{
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 4rem;
+    grid-row: 1;
+    }
+    #subtitlecontainer{
+    grid-column: 1;
+    grid-row: 2;
+    padding-top: 10px;    
+    }
+}
+@media screen and (max-width: 400px) {
+    #title{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    #subtitle{
+        font-size: 1.8rem;
+    }
+}
