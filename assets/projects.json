@@ -1,0 +1,31 @@
+{
+    "projects":[
+        {
+            "title": "Clevett & Co.",
+            "description": "Logo design for a garden and home maintenance business.",
+            "image": "assets/images/project1.png",
+            "imageAlt": "Screenshot of Project Title",
+            "detailFile": "#",
+            "date": "February 2026",
+            "projectLink": ""
+        },
+        {
+            "title": "Final year research project",
+            "description": "A digital student magazine based on the aesthetics of 1980s issues of the Face magazine.",
+            "image": "assets/images/studentmagthumbnail.png",
+            "imageAlt": "Screenshot of Project Title",
+            "detailFile": "#",
+            "date": "May 2025",
+            "projectLink": "https://studentmagazinefinalproject.netlify.app/"
+        },
+        {
+            "title": "Aurum Landscapes",
+            "description": "A multi-page website for a luxury landscape design company.",
+            "image": "assets/images/project3.png",
+            "imageAlt": "Screenshot of Project Title",
+            "detailFile": "#",
+            "date": "March 2025",
+            "projectLink": ""
+        }
+    ]
+}

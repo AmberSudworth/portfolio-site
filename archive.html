@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Archive</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/grid.css">
+    <link rel="stylesheet" href="assets/styles/animations.css">
+    <script src="assets/scripts/loadprojects.js" defer></script>
+</head>
+<body>
+    <header></header>
+    <!-- Nav -->
+    <nav id="topNav">
+        <div class="nameContainer">
+            <a class="nodeco" href="index.html"><p id="navName">AMBER SUDWORTH</p></a>
+        </div>
+        <ul>
+            <li>
+                <a href="index.html#about">About</a>
+            </li>
+            <li>
+                <a href="index.html#projects">Projects</a>
+            </li>
+            <li >
+                <a href="index.html#contact" id="contactButton">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <footer>
+        <nav class="footernav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <hr style="margin: 5px;">
+                <li><a href="archive.html">Project Archive</a></li>
+            </ul>
+        </nav>
+        <button id="toTopButton" onclick="topFunction()"><img class="icon" src="assets/icons/caret-up-solid.svg" alt="Back to Top"></button>
+            <!-- JavaScript for back to top button - I don't need a whole separate script file for that. -->
+            <script>
+                let toTopButton = document.getElementById("toTopButton");
+                function topFunction() {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            </script>
+        <section class="socialsContainer">
+            <p class="small">&copy; 2025 Amber Sudworth. All rights reserved.</p>
+            <ul class="nodeco">
+                <li><img class="icon" src="assets/icons/linkedin-brands-solid.svg" alt="LinkedIn Icon"></li>
+                <li><img class="icon" src="assets/icons/square-github-brands-solid.svg" alt="GitHub Icon"></li>
+            </ul>
+    </footer>
+</body>
+</html>

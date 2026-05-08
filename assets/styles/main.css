@@ -1,0 +1,212 @@
+/* Where all the styling for the site goes. */
+/*font import*/
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+/*sets baseline size for root em sizing.*/
+html{
+    font-size: 16px;
+}
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+/*Nav stuff*/
+#topNav{
+    border-bottom: 2px solid black;
+}
+#topNav ul{
+    padding: 10px 5%;
+}
+#topNav ul li{
+    padding: 1rem;
+}
+#topNav ul li a{
+    color: black;
+}
+.nameContainer{
+    height: 100%;
+    background-color: black;
+    padding-left: 5%;
+    align-content: center;
+    padding-right: 10px;
+}
+/*Main*/
+main{
+    margin: 0 5%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+section:not(form section){
+    padding: 2rem;
+}
+#projects, #contact{
+    border-top: 2px solid black;
+}
+.projectTile{
+    padding: 1rem 2rem;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+.projectTile h2{
+    border-bottom: 1px solid black;
+}
+
+/*form*/
+form{
+    border: 2px solid black;
+    border-radius: 16px;
+    align-items: center;
+}
+form h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 12px 12px 0 0;
+    padding-bottom: 8px;
+}
+form .formGroup, form button[type="submit"]{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+form button[type="submit"]{
+    margin: 1rem;
+}
+form input, form textarea{
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+/*footer stuff*/
+footer{
+    background-color: black;
+    padding: 2rem 5%;
+}
+footer nav a, footer{
+    color: white;
+}
+.socialsContainer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*for navs, social media icons, etc*/
+.nodeco, nav ul, nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+/*font styling*/
+h1, h2, h3, h4, #navName, #topNav ul li a, button[type="submit"], #archiveLinkButton, .projectTile a{
+    font-family: 'Dela Gothic One', Tahoma, Geneva, Verdana, sans-serif;
+}
+p, nav, form, form input, textarea, a#CVDownload{
+    font-family: 'Plus Jakarta Sans', Tahoma, Geneva, Verdana, sans-serif;
+}
+.big, #navName{
+    font-size: 1.8rem;
+}
+h1{
+    font-size:1.6rem;
+    font-weight: 900;
+    line-height: 1.8;
+    text-transform: uppercase;
+}
+h2, #archiveLinkButton{
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
+h3{
+    font-size: 1.3rem;
+    line-height: 1.8;
+}
+h4{
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+p, #topNav ul li a, form, form input, textarea{
+    font-size: 1rem;
+    line-height: 1.8;
+}
+p.small, .projectTile a{
+    font-size: .9rem;
+    line-height: 1.9;
+}
+#navName{
+    color: white;
+    padding: 5px 10px
+}
+/*Buttons or styled links*/
+#contactButton{
+    border: 2px solid black;
+    padding: 10px 16px;
+    border-radius: 16px;
+}
+#toTopButton{
+    border: none;
+    background-color: white;
+    border-radius: 16px;
+    height: 64px;
+    width: 64px;
+}
+#toTopButton img{
+    transform: translateY(2px);
+}
+#archiveLinkButton{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 16px;
+    writing-mode: vertical-rl;
+    text-align: center;
+    transform: rotate(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+a#CVDownload{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+.projectTile a{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    text-decoration: none;
+}
+button[type="submit"]{
+    padding: 16px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 16px;
+    align-self: center;
+    text-transform: uppercase;
+    border: 2px solid black;
+}
+
+/*specific images*/
+.icon{
+    width: 30px;
+    height: 30px;
+}
+footer ul .icon{
+    filter: invert(100%);
+}
+.projectTile img{
+    width: fit-content;
+    height: auto;
+}
